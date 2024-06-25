@@ -13,6 +13,10 @@ Tools:
 <details>
   <summary>Click to expand!</summary>
 
+```markdown
+Endpoint: `/api1/revshell`
+```
+
 ### Basic Api call
 
 ```powershell
