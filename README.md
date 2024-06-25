@@ -17,6 +17,8 @@ Tools:
 Endpoint: `/api1/revshell`
 ```
 
+[WebApp Version](https://powershellforhackers.com/tools/revshell/generator)
+
 ### Basic Api call
 
 ```powershell
