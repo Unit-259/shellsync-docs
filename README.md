@@ -119,13 +119,22 @@ irm -Uri 'https://shellsync.app/api1/mini?u=website.com/file' -Method POST
 
 # Enumerate Subdomains
 <details>
-  <summary>Click to expand!</summary>
+  <summary>Click to expand</summary>
 
 ```markdown
 Endpoint: `/api1/enumsubdomain`
 ```
 
 [WebApp Version](https://powershellforhackers.com/tools/subdomain/enumerator)
+
+`* Adv Api uses parallel processing and load balancing`
+
+| Method          | Per Minute      |
+|-----------------|-----------------|
+| WebAppp         | 1.2k min        |
+| Api             | 20k  min        |
+| Adv Api         | 107k min        |
+
 
 ### Basic Api call
 
